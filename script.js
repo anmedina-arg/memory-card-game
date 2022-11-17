@@ -3,7 +3,7 @@
 
 var library = {
   pokemon: [
-    "https://res.cloudinary.com/beumsk/image/upload/v1547980025/memory/Pokemon/Bulbasaur.png",
+    "https://images.everyeye.it/img-notizie/i-simpson-ammutinamento-bounty-episodi-onda-italia-1-v3-389891.jpg",
     "https://res.cloudinary.com/beumsk/image/upload/v1547980083/memory/Pokemon/Charmander.png",
     "https://res.cloudinary.com/beumsk/image/upload/v1547980101/memory/Pokemon/Squirtle.png",
     "https://res.cloudinary.com/beumsk/image/upload/v1547980116/memory/Pokemon/Pikachu.png",
@@ -13,7 +13,7 @@ var library = {
     "https://res.cloudinary.com/beumsk/image/upload/v1547980164/memory/Pokemon/Zapdos.png",
     "https://res.cloudinary.com/beumsk/image/upload/v1547980175/memory/Pokemon/Moltres.png",
     "https://res.cloudinary.com/beumsk/image/upload/v1547980186/memory/Pokemon/Eevee.png",
-    "https://res.cloudinary.com/beumsk/image/upload/v1547980025/memory/Pokemon/Bulbasaur.png",
+    "https://images.everyeye.it/img-notizie/i-simpson-ammutinamento-bounty-episodi-onda-italia-1-v3-389891.jpg",
     "https://res.cloudinary.com/beumsk/image/upload/v1547980083/memory/Pokemon/Charmander.png",
     "https://res.cloudinary.com/beumsk/image/upload/v1547980101/memory/Pokemon/Squirtle.png",
     "https://res.cloudinary.com/beumsk/image/upload/v1547980116/memory/Pokemon/Pikachu.png",
@@ -257,12 +257,11 @@ function resetGame() {
   scoreElt.textContent = score;
 }
 
-// handle focus of the page
+//handle focus of the page
 // function checkPageFocus() {
 //   if (document.hasFocus()) {
 //     preElt.classList.remove("hidden");
-//   }
-//   else {
+//   } else {
 //     preElt.classList.add("hidden");
 //   }
 // }
