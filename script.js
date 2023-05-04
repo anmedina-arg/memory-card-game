@@ -3,7 +3,7 @@
 
 var library = {
   pokemon: [
-    "https://images.everyeye.it/img-notizie/i-simpson-ammutinamento-bounty-episodi-onda-italia-1-v3-389891.jpg",
+    "https://res.cloudinary.com/beumsk/image/upload/v1547980025/memory/Pokemon/Bulbasaur.png",
     "https://res.cloudinary.com/beumsk/image/upload/v1547980083/memory/Pokemon/Charmander.png",
     "https://res.cloudinary.com/beumsk/image/upload/v1547980101/memory/Pokemon/Squirtle.png",
     "https://res.cloudinary.com/beumsk/image/upload/v1547980116/memory/Pokemon/Pikachu.png",
@@ -13,7 +13,7 @@ var library = {
     "https://res.cloudinary.com/beumsk/image/upload/v1547980164/memory/Pokemon/Zapdos.png",
     "https://res.cloudinary.com/beumsk/image/upload/v1547980175/memory/Pokemon/Moltres.png",
     "https://res.cloudinary.com/beumsk/image/upload/v1547980186/memory/Pokemon/Eevee.png",
-    "https://images.everyeye.it/img-notizie/i-simpson-ammutinamento-bounty-episodi-onda-italia-1-v3-389891.jpg",
+    "https://res.cloudinary.com/beumsk/image/upload/v1547980025/memory/Pokemon/Bulbasaur.png",
     "https://res.cloudinary.com/beumsk/image/upload/v1547980083/memory/Pokemon/Charmander.png",
     "https://res.cloudinary.com/beumsk/image/upload/v1547980101/memory/Pokemon/Squirtle.png",
     "https://res.cloudinary.com/beumsk/image/upload/v1547980116/memory/Pokemon/Pikachu.png",
