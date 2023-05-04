@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+font-family: 'Sigmar', cursive;
 }
 
 body {
@@ -10,8 +11,9 @@ body {
   justify-content: space-between;
   align-items: center;
   min-height: 100vh;
-  background: #1abc9c;
-  background-image: linear-gradient(to top left, #9b59b6, #1abc9c);
+  background: #030303;
+  background-image: url(./background.svg);
+  background-size: cover;
   font-family: arial;
   position: relative;
   text-align: center;
@@ -46,14 +48,14 @@ header {
 .main {
   background: white;
   width: 250px;
-  /*   height: 345px; */
   padding-bottom: 10px;
-  /*   box-shadow: 3px 3px 3px 1px rgba(0,0,0,0.4); */
+    box-shadow: 0px 0px 50px 25px rgba(256,256,256,0.4);
   margin: auto;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  border-radius: 5px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -71,11 +73,12 @@ header {
 }
 
 .box {
-  background: #6186aa;
+  background: #1f8adb;
   width: 50px;
   height: 50px;
   float: left;
-  margin: 10px 0 0 10px;
+  margin: 15px 0 0 10px;
+  border-radius: 5px;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -86,7 +89,7 @@ header {
 }
 
 .box.play:hover {
-  opacity: 0.7;
+  background: #f52a8c;
   cursor: pointer;
 }
 
@@ -104,8 +107,7 @@ header {
 
 /* STATUS bar */
 #state {
-  background: #6186aa;
-  /*   background-image: linear-gradient(to top left, #9b59b6, #1abc9c); */
+  background: #f52a8c;
   background-size: 250%;
   width: 230px;
   line-height: 25px;
@@ -189,9 +191,10 @@ footer p a:hover {
 #themes {
   margin: auto;
   padding: 20px;
-  width: 300px;
-  background: white;
-  color: #6186aa;
+  width: 350px;
+  background: #e0e0e0;
+  color: #1f8adb;
+  border-radius: 2rem;
 }
 
 #themes p {
@@ -199,13 +202,14 @@ footer p a:hover {
   padding: 10px 20px;
   border: solid 1px;
   background: white;
-  color: #6186aa;
+  color: #1f8adb;
   cursor: pointer;
   font-size: 16px;
+  border-radius: 2rem;
 }
 
 #themes p:hover {
-  background: #6186aa;
+  background: #f52a8c;
   background-size: 250%;
   color: white;
 }
@@ -237,7 +241,8 @@ footer p a:hover {
   width: 300px;
   padding: 20px 0 40px;
   background: white;
-  color: #6186aa;
+  color: #1f8adb;
+  border-radius: 1rem;
 }
 
 #post p:first-child,
@@ -249,17 +254,17 @@ footer p a:hover {
 }
 
 #post #again {
-  color: #6186aa;
+  color: #1f8adb;
   text-decoration: none;
   margin: auto;
   padding: 10px 20px;
   width: 160px;
   border: solid 1px;
+  border-radius: 1rem;
 }
 
 #post #again:hover {
-  background: #6186aa;
-  /*   background-image: linear-gradient(to top left, #9b59b6, #1abc9c); */
+  background: #f52a8c;
   background-size: 250%;
   color: white;
   cursor: pointer;
